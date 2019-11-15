@@ -4,7 +4,7 @@ let driver = {name: "Sam"};
 function updateDriverWithKeyAndValue(obj, key, value){
   let newDriver = Object.assign({}, obj);
   newDriver[key] = value;
-  return newDrive;
+  return newDriver;
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(obj, key, value){
